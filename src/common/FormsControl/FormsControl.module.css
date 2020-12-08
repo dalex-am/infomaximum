@@ -1,0 +1,34 @@
+.formControl textarea {
+    width: 822px;
+}
+
+.formControl.error input,
+.formControl.error textarea {
+    border: red solid 2px;
+}
+
+
+.summaryFormErrorLogin {
+    position: absolute;
+    top: 241px;
+    background: #FFE9DB;
+    width: 424px;
+    height: 96px;
+    font-size: 14px;
+    /* padding: 24px 25px 24px 41px; */
+}
+
+
+.errorImg {
+    margin-left: 48px;
+}
+
+.errorText {
+    position: absolute;
+    left: 120px;
+    top: 36px;
+
+    /* margin-left: 25px; */
+    width: 279px;
+    height: 24px;
+}

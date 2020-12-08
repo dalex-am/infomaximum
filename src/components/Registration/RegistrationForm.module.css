@@ -1,0 +1,42 @@
+h3 {
+    margin: 36px 48px 20px;
+}
+
+.authorizationBtn {
+    margin-left: 48px;
+    margin-bottom: 20px;
+}
+
+.authorizationBtn a {
+    text-decoration: none;
+    color: #3167BA;
+}
+
+.summaryFormError {
+    position: relative;
+    background: #FFE9DB;
+    width: 424px;
+    height: 96px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    /* padding: 24px 25px 24px 41px; */
+}
+
+.errorImg {
+    margin-left: 48px;
+}
+
+.errorImg svg {
+    margin-top: 27px;
+}
+
+.errorText {
+    position: absolute;
+    left: 120px;
+    top: 36px;
+
+    /* margin-left: 25px; */
+    width: 279px;
+    height: 24px;
+}

@@ -1,0 +1,19 @@
+.logo {
+    position: absolute;
+    width: 150.51px;
+    height: 47.88px;
+    left: calc(50% - 150.51px/2);
+    top: 32px;
+    margin: 0 auto;
+}
+
+.loginFormWrapper {
+    position: absolute;
+    top: 112px;
+    left: calc((100% - 424px)/2);
+    width: 424px;
+    min-height: calc(100% - 112px);
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}

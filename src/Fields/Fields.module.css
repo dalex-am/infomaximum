@@ -1,0 +1,236 @@
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #404064;
+}
+
+.inputDataWrapper {
+    position: relative;
+    display: inline-flex;
+    width: calc(100% - 48px);
+    height: 288px;
+    padding-top: 24px;
+    padding-left: 24px;
+    margin-top: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.labelData {
+    width: 158px;
+    height: 36px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #999999;
+}
+
+.user {
+    width: 435px;
+}
+
+.registration {
+    width: 328px;
+}
+
+.inputData {
+    background: #FFFFFF;
+    border: 1px solid #D6DCE9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    min-width: 250px;
+    height: 36px;
+    padding: 6px 20px 6px 12px;
+    color: #6879BB;
+}
+
+.inputBtnUser {
+    position: absolute;
+    right: 0;
+    top: -46px;
+    background: #FFCE0C;
+    border-radius: 4px;
+    width: 116px;
+    height: 36px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.inputBtnRegistration {
+    background: #FFCE0C;
+    border-radius: 4px;
+    margin: 12px 48px 18px 48px;
+    width: 328px;
+    height: 36px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.input {
+    position: relative;
+    width: inherit;
+}
+
+@media (max-width: 1010px) { 
+    .squareUser {
+        top: 34px;
+        right: 14px;
+    }
+    .squareRegistration {
+        top: 14px;
+        left: 375px;
+    }
+
+    .hintUser {
+        top: 38px;
+        right: 10px;
+    }
+    .hintRegistration {
+        top: -3px;
+        left: 379px;
+    }
+
+    .hintUser2 {
+        top: 38px;
+        right: 10px;
+    }
+    .hintRegistration2 {
+        top: -3px;
+        left: 379px;
+    }
+
+    .hintUser5 {
+        top: 38px;
+        right: 10px;
+    }
+    .hintRegistration5 {
+        top: -3px;
+        left: 379px;
+    }
+}
+
+@media (min-width: 1010px) { 
+    .squareUser {
+        top: 14px;
+        left: 432px;
+    }    
+    .squareRegistration {
+        top: 14px;
+        left: 375px;
+    }
+
+    .hintUser {
+        left: 436px;
+        top: 2px;
+    }
+    .hintRegistration {
+        top: -3px;
+        left: 379px;
+    }
+    
+    .hintUser2 {
+        top: -22px;
+        left: 438px;
+    }
+    .hintRegistration2 {
+        top: -3px;
+        left: 379px;
+    }
+
+    .hintUser5 {
+        top: -62px;
+        left: 438px;
+    }
+    .hintRegistration5 {
+        top: -3px;
+        left: 379px;
+    }
+}
+
+.squarePassword {
+    position: absolute;
+    width: 8.5px;
+    height: 8.5px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(45deg);
+    z-index: 999;
+}
+
+.passwordInfo {
+    position: absolute;
+    width: 300px;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    z-index: 999;
+}
+
+.oneStringInfo {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+
+.twoStringInfo {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    z-index: 999;
+}
+
+.iconValid {
+    position: absolute;
+    left: 16px;
+}
+
+.textValid {
+    position: absolute;
+    left: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: #5F6E78;
+}
+
+.eyeUser {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.eyeRegistration {
+    position: absolute;
+    top: 10px;
+    right: 55px;
+    cursor: pointer;
+}
+
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear {
+    display: none;
+}

@@ -1,0 +1,242 @@
+.processWrapper {
+    width: calc(100% - 24px);
+    min-height: 252px;
+    background-color: #FFF;
+    margin-bottom: 12px;
+    padding-right: 24px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    position: relative;
+    height: 60px;
+    border-bottom: solid 1px #D6DCE9;
+    margin-bottom: 24px;
+}
+
+.processName {
+    font-weight: bold;
+    width: calc(100% - 170px);
+    max-width: 600px;
+    height: 36px;
+    font-size: 22px;
+    line-height: 30px;
+    position: absolute;
+    top: 12px;
+    left: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #6879BB;
+}
+
+.lookProcess {
+    position: absolute;
+    right: 0;
+    top: 18px;
+}
+
+/* Блок с информаций */
+.infoParent {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.infoChild {
+    /* background-color: #6879BB; */
+    /* border: 1px solid black; */
+    width: 248px;
+    margin: 0 0px 24px 0;
+    position: relative;
+}
+
+.numberOfExecutions {
+    height: 132px;
+}
+
+.iconNumberOfExecutions {
+    position: absolute;
+    top: calc(67px - 20px);
+    left: 24px;
+}
+
+.titleNumberOfExecutions {
+    position: absolute;
+    top: calc(64px - 24px);
+    left: 60px;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #535374;
+}
+
+.commentNumberOfExecutions {
+    position: absolute;
+    top: calc(94px - 24px);
+    left: 60px;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #999999;
+}
+
+.averageTime {
+    height: 132px;
+}
+
+.iconAverageTimeTop {
+    position: absolute;
+    top: calc(36px - 24px);
+    left: 40px;
+}
+
+.titleAverageTimeTop {
+    position: absolute;
+    top: calc(36px - 24px);
+    left: 72px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #535374;
+}
+
+.commentAverageTimeTop {
+    position: absolute;
+    top: calc(60px - 24px);
+    left: 72px;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #999999;
+}
+
+.iconAverageTimeBottom {
+    position: absolute;
+    top: calc(108px - 24px);
+    left: 40px;
+}
+
+.titleAverageTimeBottom {
+    position: absolute;
+    top: calc(108px - 24px);
+    left: 72px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #535374;
+}
+
+.commentAverageTimeBottom {
+    position: absolute;
+    top: calc(132px - 24px);
+    left: 72px;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #999999;
+}
+
+.employees {
+    height: 132px;
+}
+
+.iconemployeesTop {
+    position: absolute;
+    top: calc(36px - 24px);
+    left: 40px;
+}
+
+.titleemployeesTop {
+    position: absolute;
+    top: calc(36px - 24px);
+    left: 72px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #535374;
+}
+
+.commentemployeesTop {
+    position: absolute;
+    top: calc(60px - 24px);
+    left: 72px;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #999999;
+}
+
+.iconemployeesBottom {
+    position: absolute;
+    top: calc(108px - 24px);
+    left: 40px;
+}
+
+.titleemployeesBottom {
+    position: absolute;
+    top: calc(108px - 24px);
+    left: 72px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #535374;
+}
+
+.commentemployeesBottom {
+    position: absolute;
+    top: calc(132px - 24px);
+    left: 72px;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #999999;
+}
+
+.startEnd {
+    padding-top: 14px;
+    height: 118px;
+}
+
+.titleStartEnd {
+    display: inline-block;
+    margin: 0 20px 12px 40px;
+    width: 67px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 16px;
+    /* display: flex; */
+    align-items: center;
+    color: #999999;
+}
+
+.valueStartEnd {
+    display: inline-block;
+    margin: 0 0px 12px 0;
+    width: 120px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 16px;
+    /* display: flex; */
+    align-items: center;
+    color: #333333;
+}

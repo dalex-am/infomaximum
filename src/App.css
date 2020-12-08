@@ -1,0 +1,58 @@
+.app-wrapper {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    left: 0px;
+    top: 0px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    scrollbar-color: #458245 #714826; 
+    /* Для мозилы */
+}
+
+
+
+::-webkit-scrollbar {
+    position: absolute;
+    width: auto;
+    right: 12px;
+    top: 0px;
+    
+    background: #8b99c9;
+    border-radius: 20px;
+    }
+
+::-webkit-scrollbar-track {
+    background: #8b99c9;
+    width: 12px;
+}
+
+::-webkit-scrollbar-track-piece {
+    position: absolute;
+    width: 12px;
+    height: 100%;
+    right: 12px;
+    top: 0px;
+    
+    background: #afb9d7;
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+    position: absolute;
+    width: 12px;
+    height: auto;
+    right: 12px;
+    top: 16.27px;
+    
+    background: #8b99c9;
+    border-radius: 6px;
+    }
+
+::-webkit-scrollbar-corner {
+    background: #afb9d7;
+}

@@ -1,0 +1,99 @@
+.input {
+    background: #FFFFFF;
+    border: 1px solid #D6DCE9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 36px 48px 12px 48px;
+    width: 328px;
+    height: 36px;
+    padding: 6px 20px 6px 12px;
+    color: #6879BB;
+}
+
+.inputEmail {
+    margin: 36px 48px 12px 48px;
+}
+
+.inputEmail:hover {
+    border: 1px solid #415FD5;
+}
+
+.inputPassword {
+    margin: 0px 48px 24px 48px;
+}
+
+.inputPassword:hover {
+    border: 1px solid #415FD5;
+}
+
+.inputBtn {
+    background: #FFCE0C;
+    border-radius: 4px;
+    margin: 0px 48px 18px 48px;
+    width: 328px;
+    height: 36px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.inputBtn:hover {
+    background: #FFD73B;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.12);
+}
+
+.inputBtn:focus {
+    background: #FFCE0C;
+    border: 1px solid #FFFBEA;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 10px #FFD73B;
+}
+
+.registrationBtn {
+    margin-left: 48px;
+    margin-bottom: 24px;
+}
+
+.registrationBtn a {
+    text-decoration: none;
+    color: #3167BA;
+}
+
+.summaryFormError {
+    background: #FFE9DB;
+    width: 424px;
+    height: 96px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    /* padding: 24px 25px 24px 41px; */
+}
+
+.errorImg {
+    margin-left: 48px;
+}
+
+.errorImg svg {
+    margin-top: 27px;
+}
+
+.errorText {
+    position: absolute;
+    left: 120px;
+    top: 277px;
+
+    width: 279px;
+    height: 24px;
+}
+
+.eye {
+    position: absolute;
+    top: 94px;
+    right: 60px;
+    cursor: pointer;
+}
+
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear {
+    display: none;
+}

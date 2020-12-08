@@ -1,0 +1,127 @@
+.mainWrapper {
+    background: #EBF2FB;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-width: 700px;
+    min-height: 100%;
+}
+
+.topMenu {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(104, 121, 187, 0.1);
+}
+
+.menuIcon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 24px;
+    top: 18px;
+}
+
+.menuText {
+    position: absolute;
+    height: 24px;
+    top: 18px;
+    left: 60px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #6879BB;
+}
+
+.topLeftMenu {
+    z-index: 1000;
+    position: fixed;
+    width: 224px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+
+    background: #535374;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.leftMenu {
+    z-index: 1000;
+    position: fixed;
+    width: 224px;
+    height: calc(100% - 60px);
+    left: 0px;
+    top: 60px;
+    color: #FFFFFF;
+
+    background: #404064;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.3);
+}
+
+.leftMenu a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.iconUser {
+    position: absolute;
+    width: 24px;
+    left: 24px;
+    top: 18px;
+    /* bottom: 24px; */
+}
+
+.userName {
+    font-size: 14px;
+    position: absolute;
+    top: 21px;
+    left: 60px;
+    font-weight: bold;
+    height: 24px;
+}
+
+.iconData {
+    position: absolute;
+    width: 24px;
+    left: 24px;
+    top: 78px;
+}
+
+.processesList {
+    font-size: 14px;
+    position: absolute;
+    top: 81px;
+    left: 60px;
+    font-weight: bold;
+    height: 24px;
+}
+
+.haze {
+    z-index: 1000;
+    position: absolute;
+    width: calc(100% - 224px);
+    height: 100%;
+    left: 224px;
+    top: 0px;
+
+    /* Grey / grey-10 */
+    background: #20262B;
+    opacity: 0.5;
+}
+
+.content {
+    min-height: 100%;
+    padding: 82px 22px 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
