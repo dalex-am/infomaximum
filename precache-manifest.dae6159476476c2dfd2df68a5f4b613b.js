@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b620239be7c98e75a27a4e403329220a",
+    "revision": "22b1939ffcac11c8338d2d155ec734ac",
     "url": "/infomaximum/index.html"
   },
   {
-    "revision": "2607eed814c4680be2b4",
-    "url": "/infomaximum/static/css/main.bb8189b1.chunk.css"
+    "revision": "28336a2243d4f56d669a",
+    "url": "/infomaximum/static/css/main.fab78c16.chunk.css"
   },
   {
     "revision": "650da1df5c08296dc28f",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/infomaximum/static/js/2.46bc2745.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2607eed814c4680be2b4",
+    "revision": "28336a2243d4f56d669a",
     "url": "/infomaximum/static/js/main.0a351186.chunk.js"
   },
   {

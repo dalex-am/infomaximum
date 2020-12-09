@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/infomaximum/static/css/main.bb8189b1.chunk.css",
+    "main.css": "/infomaximum/static/css/main.fab78c16.chunk.css",
     "main.js": "/infomaximum/static/js/main.0a351186.chunk.js",
     "main.js.map": "/infomaximum/static/js/main.0a351186.chunk.js.map",
     "runtime-main.js": "/infomaximum/static/js/runtime-main.67056704.js",
@@ -8,15 +8,15 @@
     "static/js/2.46bc2745.chunk.js": "/infomaximum/static/js/2.46bc2745.chunk.js",
     "static/js/2.46bc2745.chunk.js.map": "/infomaximum/static/js/2.46bc2745.chunk.js.map",
     "index.html": "/infomaximum/index.html",
-    "precache-manifest.34c72923fa755991e93be2dd0c7de9b2.js": "/infomaximum/precache-manifest.34c72923fa755991e93be2dd0c7de9b2.js",
+    "precache-manifest.dae6159476476c2dfd2df68a5f4b613b.js": "/infomaximum/precache-manifest.dae6159476476c2dfd2df68a5f4b613b.js",
     "service-worker.js": "/infomaximum/service-worker.js",
-    "static/css/main.bb8189b1.chunk.css.map": "/infomaximum/static/css/main.bb8189b1.chunk.css.map",
+    "static/css/main.fab78c16.chunk.css.map": "/infomaximum/static/css/main.fab78c16.chunk.css.map",
     "static/js/2.46bc2745.chunk.js.LICENSE.txt": "/infomaximum/static/js/2.46bc2745.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.67056704.js",
     "static/js/2.46bc2745.chunk.js",
-    "static/css/main.bb8189b1.chunk.css",
+    "static/css/main.fab78c16.chunk.css",
     "static/js/main.0a351186.chunk.js"
   ]
 }
