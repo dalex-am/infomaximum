@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/infomaximum/static/css/main.fab78c16.chunk.css",
-    "main.js": "/infomaximum/static/js/main.0a351186.chunk.js",
-    "main.js.map": "/infomaximum/static/js/main.0a351186.chunk.js.map",
+    "main.js": "/infomaximum/static/js/main.42f8d21b.chunk.js",
+    "main.js.map": "/infomaximum/static/js/main.42f8d21b.chunk.js.map",
     "runtime-main.js": "/infomaximum/static/js/runtime-main.67056704.js",
     "runtime-main.js.map": "/infomaximum/static/js/runtime-main.67056704.js.map",
-    "static/js/2.46bc2745.chunk.js": "/infomaximum/static/js/2.46bc2745.chunk.js",
-    "static/js/2.46bc2745.chunk.js.map": "/infomaximum/static/js/2.46bc2745.chunk.js.map",
+    "static/js/2.146963ff.chunk.js": "/infomaximum/static/js/2.146963ff.chunk.js",
+    "static/js/2.146963ff.chunk.js.map": "/infomaximum/static/js/2.146963ff.chunk.js.map",
     "index.html": "/infomaximum/index.html",
-    "precache-manifest.dae6159476476c2dfd2df68a5f4b613b.js": "/infomaximum/precache-manifest.dae6159476476c2dfd2df68a5f4b613b.js",
+    "precache-manifest.60a48d0741f9093765279f8c7fc4ddda.js": "/infomaximum/precache-manifest.60a48d0741f9093765279f8c7fc4ddda.js",
     "service-worker.js": "/infomaximum/service-worker.js",
     "static/css/main.fab78c16.chunk.css.map": "/infomaximum/static/css/main.fab78c16.chunk.css.map",
-    "static/js/2.46bc2745.chunk.js.LICENSE.txt": "/infomaximum/static/js/2.46bc2745.chunk.js.LICENSE.txt"
+    "static/js/2.146963ff.chunk.js.LICENSE.txt": "/infomaximum/static/js/2.146963ff.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.67056704.js",
-    "static/js/2.46bc2745.chunk.js",
+    "static/js/2.146963ff.chunk.js",
     "static/css/main.fab78c16.chunk.css",
-    "static/js/main.0a351186.chunk.js"
+    "static/js/main.42f8d21b.chunk.js"
   ]
 }
