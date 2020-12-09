@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import {Field} from "redux-form";
 import classes from "./Fields.module.css";
-import {Logos} from "../assets/logo/Logos.js"
+import {Logos} from "../assets/logo/Logos.js";
+import cn from "classnames";
 
 const AllFields = (props) => {
 
@@ -77,8 +78,8 @@ const AllFields = (props) => {
                     component={"input"} name={'firstName'} 
                     placeholder={props.placeholderFirstName} onChange={() => checkFirstName() } /> 
                 <div id="firstNameHint" style={{"visibility": "hidden"}}>
-                    <div className={classes.squarePassword + " " + (props.mode === "user" ? classes.squareUser : classes.squareRegistration) } ></div>
-                    <div className={classes.oneStringInfo + " " + (props.mode === "user" ? classes.hintUser : classes.hintRegistration) } id="firstNameInfo">
+                    <div className={cn(classes.squarePassword, {[classes.squareUser]: props.mode === "user", [classes.squareRegistration]: props.mode === "registration"}) } ></div>
+                    <div className={cn(classes.oneStringInfo, {[classes.hintUser]: props.mode === "user", [classes.hintRegistration]: props.mode === "registration" }) } id="firstNameInfo">
                         <span className={classes.iconValid} style={{"top": "14px"}}>{firstNameOk ? Logos.iconOk : Logos.iconNotOk}</span>
                         <span className={classes.textValid} style={{"top": "12px"}}>обязательно для ввода</span>
                     </div>
@@ -91,8 +92,8 @@ const AllFields = (props) => {
                     component={"input"} name={'secondName'} 
                     placeholder={props.placeholderSecondName} onChange={() => checkSecondName() } /> 
                 <div id="secondNameHint" style={{"visibility": "hidden"}}>
-                    <div className={classes.squarePassword + " " + (props.mode === "user" ? classes.squareUser : classes.squareRegistration) } ></div>
-                    <div className={classes.oneStringInfo + " " + (props.mode === "user" ? classes.hintUser : classes.hintRegistration) } id="secondNameInfo">
+                    <div className={cn(classes.squarePassword, {[classes.squareUser]: props.mode === "user", [classes.squareRegistration]: props.mode === "registration"}) } ></div>
+                    <div className={cn(classes.oneStringInfo, {[classes.hintUser]: props.mode === "user", [classes.hintRegistration]: props.mode === "registration" }) } id="secondNameInfo">
                         <span className={classes.iconValid} style={{"top": "14px"}}>{secondNameOk ? Logos.iconOk : Logos.iconNotOk}</span>
                         <span className={classes.textValid} style={{"top": "12px"}}>обязательно для ввода</span>
                     </div>
@@ -105,9 +106,8 @@ const AllFields = (props) => {
                     component={"input"} name={'email'} 
                     placeholder={props.placeholderEmail} onChange={() => checkEmail() } /> 
                 <div id="emailHint" style={{"visibility": "hidden"}}>
-                    <div className={classes.squarePassword + " " + (props.mode === "user" ? classes.squareUser : classes.squareRegistration) } ></div>
-                    <div className={classes.twoStringInfo + " " + (props.mode === "user" ? classes.hintUser2 : classes.hintRegistration2) } 
-                        id="emailInfo">
+                    <div className={cn(classes.squarePassword, {[classes.squareUser]: props.mode === "user", [classes.squareRegistration]: props.mode === "registration"}) } ></div>
+                    <div className={cn(classes.twoStringInfo, {[classes.hintUser2]: props.mode === "user", [classes.hintRegistration2]: props.mode === "registration" }) } id="emailInfo">
                         <span className={classes.iconValid} style={{"top": "14px"}}>{emailCorrect ? Logos.iconOk : Logos.iconNotOk}</span>
                         <span className={classes.textValid} style={{"top": "12px"}}>корректный email,</span>
                     
@@ -125,9 +125,8 @@ const AllFields = (props) => {
                 <span className={props.mode === "user" ? classes.eyeUser : classes.eyeRegistration} onClick={() => openCloseEye(1) }>{showPasswordOne ? Logos.openedEye : Logos.closedEye}</span>
 
                 <div id="passwordHint" style={{"visibility": "hidden"}}>
-                    <div className={classes.squarePassword + " " + (props.mode === "user" ? classes.squareUser : classes.squareRegistration) } ></div>
-                    <div className={classes.passwordInfo + " " + (props.mode === "user" ? classes.hintUser5 : classes.hintRegistration5) }
-                        id="passwordInfo">
+                    <div className={cn(classes.squarePassword, {[classes.squareUser]: props.mode === "user", [classes.squareRegistration]: props.mode === "registration"}) } ></div>
+                    <div className={cn(classes.passwordInfo, {[classes.hintUser5]: props.mode === "user", [classes.hintRegistration5]: props.mode === "registration" }) } id="passwordInfo">
                         <span className={classes.iconValid} style={{"top": "14px"}}>{lengthOk ? Logos.iconOk : Logos.iconNotOk}</span>
                         <span className={classes.textValid} style={{"top": "12px"}}>минимум 8 символов,</span>
                         
@@ -154,8 +153,8 @@ const AllFields = (props) => {
                     name={'checkPassword'} placeholder='Повторите пароль' onChange={() => {checkPasswordEqual()}} />
                 <span className={props.mode === "user" ? classes.eyeUser : classes.eyeRegistration} onClick={() => openCloseEye(2) }>{showPasswordTwo ? Logos.openedEye : Logos.closedEye}</span>
                 <div id="checkPasswordHint" style={{"visibility": "hidden"}}>
-                    <div className={classes.squarePassword + " " + (props.mode === "user" ? classes.squareUser : classes.squareRegistration) } ></div>
-                    <div className={classes.oneStringInfo + " " + (props.mode === "user" ? classes.hintUser : classes.hintRegistration) } id="checkPasswordInfo">
+                    <div className={cn(classes.squarePassword, {[classes.squareUser]: props.mode === "user", [classes.squareRegistration]: props.mode === "registration"}) } ></div>
+                    <div className={cn(classes.oneStringInfo, {[classes.hintUser]: props.mode === "user", [classes.hintRegistration]: props.mode === "registration" }) } id="checkPasswordInfo">
                         <span className={classes.iconValid} style={{"top": "14px"}}>{passwordEqual ? Logos.iconOk : Logos.iconNotOk}</span>
                         <span className={classes.textValid} style={{"top": "12px"}}>пароли совпадают</span>
                     </div>
