@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b823dc0d4c5094c173b4311edf724fbd",
+    "revision": "adea871852748ac24f49495a25dd6c4a",
     "url": "/infomaximum/index.html"
   },
   {
-    "revision": "c5903d2607e735588328",
+    "revision": "35480a2bdbfef8c74270",
     "url": "/infomaximum/static/css/main.fab78c16.chunk.css"
   },
   {
-    "revision": "635f50b90bc4e3bd94aa",
-    "url": "/infomaximum/static/js/2.146963ff.chunk.js"
+    "revision": "d61ff25a0d2e9bc90515",
+    "url": "/infomaximum/static/js/2.22a0ec4a.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/infomaximum/static/js/2.146963ff.chunk.js.LICENSE.txt"
+    "url": "/infomaximum/static/js/2.22a0ec4a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c5903d2607e735588328",
-    "url": "/infomaximum/static/js/main.42f8d21b.chunk.js"
+    "revision": "35480a2bdbfef8c74270",
+    "url": "/infomaximum/static/js/main.e101d926.chunk.js"
   },
   {
     "revision": "dc584f18d60c4cac56d1",
