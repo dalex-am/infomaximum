@@ -15,11 +15,9 @@ const Login = (props) => {
         return <Redirect to={'/main'} />
     }
     props.getUserData()
-    console.log("Просим юзера со страницы Login")
 
     let onSubmit = (formData) => {
         props.login(formData.email, formData.password )
-        console.log(formData)
     }
 
     return (  

@@ -38,7 +38,7 @@ const Main = (props) => {
                 firstName={props.firstName} secondName={props.secondName} /> }
             <div className={classes.content}> 
                 {mode === "user" && <User />}
-                {mode === "processList" && <ProcessList getUserData={props.getUserData} />}
+                {mode === "processList" && <ProcessList />}
             </div>
             
             {/* Для отладки

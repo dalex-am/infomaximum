@@ -102,15 +102,13 @@ export const getUserData = () => async (dispatch) => {
     }
 
     let response = await fetch(url, opt)
-    console.log("response getUserData - ", response)
     let data = await response.json()
     try {
         dispatch(setUserData(data.data.currentUser.id, data.data.currentUser.firstName,
             data.data.currentUser.secondName, data.data.currentUser.email, true))
     } catch (error) {
         console.log("Ошибка при getUserData")
-    } finally {
-    }
+    } 
 }
 
 export const editUser = (id, email, firstName, secondName, password) => async (dispatch) => {
